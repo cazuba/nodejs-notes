@@ -19,16 +19,16 @@ const execute = action => {
       notes.createSource(callback);
       break;
     case "add":
-      console.log('Add new note');
+      console.log("Add new note");
       break;
     case "read":
       notes.getNote(id, callback);
       break;
     case "remove":
-        console.log('Remove note');
+      console.log("Remove note");
       break;
     case "list":
-      console.log('List notes');
+      console.log("List notes");
       break;
     default:
       console.log("Nice try...keep trying.");
